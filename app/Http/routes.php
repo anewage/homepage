@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+use Illuminate\Support\Facades\Route;
+
+Route::group(
+    ['middleware' => ['web']], function () {
+
+    // HomePage
+    \App\Http\Controllers\HomeController::routes();
+
 });

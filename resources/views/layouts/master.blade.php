@@ -15,13 +15,13 @@
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
 
 </head>
-<body class ='@yield('body-class')'>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Hello</h1>
-            </div>
+    <body>
+        @section('sidebar')
+            This is the master sidebar.
+        @show
+
+        <div class="container">
+            @yield('content')
         </div>
-    </div>
-</body>
+    </body>
 </html>

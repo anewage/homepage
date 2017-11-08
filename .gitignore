@@ -1,5 +1,11 @@
-.DS_STORE
-*log*
+# dependencies
 node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
 .nuxt
-config/local.*
+
+# Nuxt generate
+dist

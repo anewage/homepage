@@ -3,9 +3,13 @@ node_modules
 
 # logs
 npm-debug.log
+yarn.lock
 
 # Nuxt build
 .nuxt
 
 # Nuxt generate
 dist
+
+#IDE Related Files
+.idea/

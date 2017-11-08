@@ -1,6 +1,5 @@
-/vendor
-/node_modules
-/public/storage
-Homestead.yaml
-Homestead.json
-.env
+.DS_STORE
+*log*
+node_modules
+.nuxt
+config/local.*

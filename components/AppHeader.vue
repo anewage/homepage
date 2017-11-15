@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable type="dark" variant="info">
+  <b-navbar toggleable toggle="md" variant="info">
     <b-link class="navbar-brand text-white" to="/">
       <span>Amir H. M.</span>
     </b-link>

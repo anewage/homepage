@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+\App\Http\Controllers\PageController::routes();
 
 Auth::routes();
 

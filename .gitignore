@@ -13,3 +13,9 @@ yarn-error.log
 composer.phar
 _ide_helper.php
 .phpstorm.meta.php
+yarn.lock
+public/fonts/
+public/css/
+public/js/
+public/mix-manifest.json
+package-lock.json

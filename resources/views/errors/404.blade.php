@@ -6,7 +6,7 @@
 
 @section('sections')
 
-    <section class="resume-section p-3 p-lg-5 d-flex d-column align-items-center justify-content-center" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex d-column align-items-center justify-content-center">
         <div class="my-auto text-center">
             <h1 class="mb-0 text-primary">Whoops!</h1>
             <h2 class="mb-0 text-muted">404 - Not Found!</h2>

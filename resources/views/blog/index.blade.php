@@ -21,7 +21,7 @@
         </div>
     @endforeach
     @else
-        <section class="resume-section p-3 p-lg-5 d-flex d-column align-items-center justify-content-center" id="about">
+        <section class="resume-section p-3 p-lg-5 d-flex d-column align-items-center justify-content-center">
             <div class="my-auto text-center">
                 <h1 class="mb-0 text-primary">Come Back Soon...</h1>
                 <h2 class="mb-0 text-muted">No Blog posts were found but I'll write soon!</h2>

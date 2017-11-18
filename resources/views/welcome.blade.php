@@ -4,11 +4,11 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-            <h1 class="mb-0">Clarence
-                <span class="text-primary">Taylor</span>
+            <h1 class="mb-0">Amir
+                <span class="text-primary">Haghighati</span>
             </h1>
-            <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                <a href="mailto:name@email.com">name@email.com</a>
+            <div class="subheading mb-5">141 Hafez Avenue, Tehran · Amirkabir U. of T. · +98 (936) 153-2428 ·
+                <a href="mailto:haghighati.amir@gmail.com">haghighati.amir@gmail.com</a>
             </div>
             <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
             <ul class="list-inline list-social-icons mb-0">

@@ -17,5 +17,6 @@ yarn.lock
 public/fonts/
 public/css/
 public/js/
+public/img/
 public/mix-manifest.json
 package-lock.json

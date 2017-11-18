@@ -7,7 +7,7 @@
 @section('sections')
 
     @if($posts->count() > 0)
-    @foreach($posts as $post)
+    @foreach($posts->sortByDesc('created_at') as $post)
         <div class="blog-post p-3 p-lg-5 d-flex d-column">
             <div class="my-auto">
                 <h2 class="mb-0 text-primary">{{ $post->title }}</h2>

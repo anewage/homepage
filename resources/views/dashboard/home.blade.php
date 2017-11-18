@@ -43,7 +43,7 @@
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach($posts as $index => $post)
+                            @foreach($posts->sortByDesc('created_at') as $index => $post)
                                 <tr>
                                     <th scope="row">{{$index+1}}</th>
                                     <td>{{$post->title}}</td>

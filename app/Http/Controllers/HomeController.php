@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use Auth;
 use Illuminate\Http\Request;
 use Route;
 
@@ -33,9 +34,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('dashboard.home', [
-	        'posts' => Post::all()
-        ]);
+    	if(Auth::user()->admin == env('ADMIN_KEY')) {
+		    return view('dashboard.home', [
+			    'posts' => Post::all()
+		    ]);
+	    } else{
+    		Auth::logout();
+    		abort(403);
+	    }
     }
 
 	public function addPost() {

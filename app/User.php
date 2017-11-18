@@ -5,6 +5,12 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Moloquent\Auth\User as Authenticatable;
 
+/**
+ * Class User
+ * @package App
+ *
+ * @property string admin
+ */
 class User extends Authenticatable
 {
     use Notifiable;

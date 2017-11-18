@@ -28,7 +28,32 @@
                     <textarea class="form-control" id="description" name="description" rows="3" placeholder="Post Description!">{{$post->description}}</textarea>
                 </div>
                 <button type="submit" class="btn btn-outline-secondary"><i class="fa fa-save"></i> Save</button>
+                <button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#confirm"><i class="fa fa-trash"></i> Delete</button>
             </form>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirm Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Warning! You are deleting this psot. Are you sure?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+                    <form method="POST" action="{{ route('admin::blog.delete', ['post' => $post]) }}">
+                        {{ csrf_field() }}
+                        <button type="submit" class="btn btn-outline-danger"><i class="fa fa-trash"></i> Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

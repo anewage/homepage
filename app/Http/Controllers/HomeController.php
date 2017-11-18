@@ -13,7 +13,8 @@ class HomeController extends Controller
 		Route::get('/home/blog/add', 'HomeController@addPost')->name('admin::blog.add');
 
 		Route::get('/home/blog/edit/{post}', 'HomeController@editPost')->name('admin::blog.edit');
-		Route::post('/home/blog/edit/{post}', 'HomeController@savePost')->name('admin::blog.edit.submit');
+		Route::post('/home/blog/edit/{post}', 'HomeController@savePost');
+		Route::post('/home/blog/delete/{post}', 'HomeController@deletePost')->name('admin::blog.delete');
 	}
 
 	/**
@@ -56,6 +57,11 @@ class HomeController extends Controller
 
 	public function savePost( Post $post, Request $request ) {
 		$post->update($request->all());
+		return redirect()->route('admin::index');
+    }
+
+	public function deletePost( Post $post, Request $request ) {
+		$post->delete();
 		return redirect()->route('admin::index');
     }
 }

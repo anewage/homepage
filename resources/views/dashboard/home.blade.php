@@ -51,7 +51,6 @@
                                     <td>{{$post->created_at}}</td>
                                     <td>
                                         <a href="{{ route('admin::blog.edit', [ 'post' => $post]) }}" class="btn btn-outline-secondary"><i class="fa fa-edit"></i></a>
-                                        <a href="#to-delete" class="btn btn-outline-danger"><i class="fa fa-trash"></i></a>
                                     </td>
                                 </tr>
                             @endforeach

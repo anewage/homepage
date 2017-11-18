@@ -3,9 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Route;
 
 class HomeController extends Controller
 {
+	public static function routes() {
+		Route::get('/home', 'HomeController@index')->name('admin::index');
+	}
+
     /**
      * Create a new controller instance.
      *

@@ -21,10 +21,10 @@
 </head>
 <body id="page-top">
     @include('includes.sidebar')
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" style="width: 100%">
         @yield('sections')
     </div>
-    @include('includes.footer')
+{{--    @include('includes.footer')--}}
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

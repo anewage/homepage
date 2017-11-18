@@ -12,7 +12,7 @@
 */
 
 \App\Http\Controllers\PageController::routes();
+\App\Http\Controllers\BlogController::routes();
+\App\Http\Controllers\HomeController::routes();
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

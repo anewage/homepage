@@ -3,6 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+html, body {
+  height:100%;
+}
 body {
   font-family: 'Lato', sans-serif;
   padding-top: 54px;
@@ -36,6 +39,13 @@ h2 {
   max-height: 10rem;
   border: 0.5rem solid;
   border-color: #BD5D38;
+}
+
+.blog-post {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  min-width: none;
 }
 
 .subheading {

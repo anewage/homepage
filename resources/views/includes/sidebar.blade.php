@@ -1,5 +1,17 @@
+<?php
+$sidebar = [
+	"Blog" => route('blog::index') . '#blog',
+	"About" => route('front::index') . '#about',
+	"Education" => route('front::index') . '#education',
+	"Experience" => route('front::index') . '#experience',
+	"Interests" => route('front::index') . '#interests',
+	"Honors" => route('front::index') . '#honors',
+	"Extended C. V." => route('front::index') . '#cv',
+]
+?>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <a class="navbar-brand js-scroll-trigger" href="{{ route('front::index') }}#page-top">
         <span class="d-block d-lg-none">Amir H. M.</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ asset('img/amir.jpg') }}" alt="">
@@ -10,24 +22,37 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#honors">Honors</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#cv">Extended C. V.</a>
-            </li>
+            @if(isset($sidebar))
+                @foreach($sidebar as $name => $link)
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="{{ $link }}">{{$name}}</a>
+                    </li>
+                @endforeach
+            @endif
+            @if (!Auth::guest())
+                <li class="dropup nav-item">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        {{ Auth::user()->name }} <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu bg-dark" role="menu">
+                        <li class="nav-item">
+                            <a href="{{ route('admin::index') }}" class="nav-link">{{ Auth::user()->name }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('logout') }}" class="nav-link"
+                               onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                Logout
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            @endif
+
         </ul>
     </div>
 </nav>

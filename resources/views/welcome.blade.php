@@ -130,7 +130,7 @@
                     <div>GPA (last two years): [16.60/20.00]</div>
                     <div class="ml-4">
                         In order to see the selected courses, coursework and all the information about my education
-                        please refer to <a href="#cv">my Curriculum Vitae</a>.
+                        please refer to <a href="#cv" class="js-scroll-trigger">my Curriculum Vitae</a>.
                     </div>
                 </div>
                 <div class="resume-date text-md-right">

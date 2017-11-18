@@ -37,7 +37,7 @@
                         <input type="checkbox" class="form-check-input" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
                     </label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
                 <a class="btn btn-link pull-right" href="{{ route('password.request') }}">
                     Forgot Your Password?
                 </a>

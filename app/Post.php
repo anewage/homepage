@@ -11,6 +11,8 @@ use Moloquent\Eloquent\Model as Model;
  *
  * @property string title
  * @property mixed description
+ * @property mixed short_description
+ * @property mixed brief
  * @property string slug
  *
  * @property Carbon created_at
@@ -44,4 +46,8 @@ class Post extends Model
 	public function getShortDescriptionAttribute() {
 		return substr($this->description, 0, 10) . '...';
     }
+
+	public function getBriefAttribute() {
+		return substr($this->description, 0, 500) . '...';
+	}
 }

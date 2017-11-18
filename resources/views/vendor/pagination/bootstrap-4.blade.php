@@ -1,5 +1,6 @@
 @if ($paginator->hasPages())
-    <ul class="pagination">
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center pagination-lg">
         {{-- Previous Page Link --}}
         @if ($paginator->onFirstPage())
             <li class="page-item disabled"><span class="page-link">&laquo;</span></li>
@@ -33,4 +34,5 @@
             <li class="page-item disabled"><span class="page-link">&raquo;</span></li>
         @endif
     </ul>
+</nav>
 @endif

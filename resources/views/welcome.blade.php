@@ -4,10 +4,19 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-            <h1 class="mb-0">Amir
-                <span class="text-primary">Haghighati</span>
-            </h1>
-            <div class="subheading mb-5">141 Hafez Avenue, Tehran · Amirkabir U. of T. · +98 (936) 153-2428 ·
+            <div class="">
+                <div class="text-center d-xs-block d-lg-none">
+                    <span>
+                        <img class="img-fluid img-profile hiding-photo rounded-circle mx-auto mb-2" src="{{ asset('img/amir.jpg') }}" alt="">
+                    </span>
+                </div>
+                <div>
+                    <h1 class="mb-0">Amir
+                        <span class="text-primary">Haghighati</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="subheading mb-5">141 Hafez Ave., Tehran · Amirkabir U. of T. (Tehran Polytechnic) · +98 (936) 153-2428 ·
                 <a href="mailto:haghighati.amir@gmail.com" target="_blank">haghighati.amir@gmail.com</a>
             </div>
             <p class="mb-1">

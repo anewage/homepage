@@ -3,7 +3,7 @@
 namespace App;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model;
+use Moloquent\Eloquent\Model as Model;
 
 /**
  * Class Post
@@ -17,9 +17,19 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Post extends Model
 {
+
+	/**
+	 * @param $attr
+	 *
+	 * @return string
+	 */
 	public function getDescriptionAttribute( $attr ) {
 		if (!isset($attr) || $attr == "")
 			return strip("<i>This post has no content!</i>");
 		return strip($attr);
+    }
+
+	public function getShortDescriptionAttribute() {
+		return substr($this->description, 0, 10) . '...';
     }
 }

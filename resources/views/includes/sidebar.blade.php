@@ -25,7 +25,7 @@ $sidebar = [
             @if(isset($sidebar))
                 @foreach($sidebar as $name => $link)
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="{{ $link }}">{{$name}}</a>
+                        <a class="nav-link @if($name != 'Blog') js-scroll-trigger @endif" href="{{ $link }}">{{$name}}</a>
                     </li>
                 @endforeach
             @endif
@@ -36,7 +36,7 @@ $sidebar = [
                     </a>
                     <ul class="dropdown-menu bg-dark" role="menu">
                         <li class="nav-item">
-                            <a href="{{ route('admin::index') }}" class="nav-link">{{ Auth::user()->name }}</a>
+                            <a href="{{ route('admin::index') }}" class="nav-link">Dashboard</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('logout') }}" class="nav-link"

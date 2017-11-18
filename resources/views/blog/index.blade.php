@@ -10,9 +10,13 @@
     @foreach($posts as $post)
         <div class="blog-post p-3 p-lg-5 d-flex d-column">
             <div class="my-auto">
-                <h1 class="mb-0 text-primary">{{ $post->title }}</h1>
-                <div class="subheading mb-3">{{ $post->created_at }} ·
+                <h2 class="mb-0 text-primary">{{ $post->title }}</h2>
+                <div class="subheading mb-3">
+                    {{ $post->created_at }} ·
                     <a href="mailto:haghighati.amir@gmail.com" target="_blank">haghighati.amir@gmail.com</a>
+                    @if(!Auth::guest())
+                        · <a href="{{ route('admin::blog.edit', ['post' => $post]) }}" class="btn btn-sm btn-outline-success"><i class="fa fa-edit"></i></a>
+                    @endif
                 </div>
                 <div class="mb-1">
                     {!! $post->description !!}

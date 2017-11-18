@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('sections')
-    <section class="resume-section p-3 p-lg-5 d-flex d-column align-items-center justify-content-center" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex d-column align-items-center justify-content-center">
         <div class="my-auto">
             <div class="">
                 <div class="text-center d-xs-block d-lg-none">

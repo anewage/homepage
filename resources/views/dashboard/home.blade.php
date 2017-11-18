@@ -28,6 +28,9 @@
                 </ul>
                 <div class="tab-content" id="dashboardContent">
                     <div class="tab-pane fade show active" id="posts" role="tabpanel" aria-labelledby="posts-tab">
+                        <div class="text-center">
+                            <a class="btn btn-outline-secondary" href="{{ route('admin::blog.add') }}"><i class="fa fa-plus"></i> New Post</a>
+                        </div>
                         @if($posts->count() > 0)
                         <table class="table table-hover">
                             <thead>
@@ -36,6 +39,7 @@
                                 <th scope="col">Title</th>
                                 <th scope="col">Description</th>
                                 <th scope="col">Date</th>
+                                <th scope="col">Action</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -45,6 +49,10 @@
                                     <td>{{$post->title}}</td>
                                     <td>{{$post->shortDescription}}</td>
                                     <td>{{$post->created_at}}</td>
+                                    <td>
+                                        <a href="{{ route('admin::blog.edit', [ 'post' => $post]) }}" class="btn btn-outline-secondary"><i class="fa fa-edit"></i></a>
+                                        <a href="#to-delete" class="btn btn-outline-danger"><i class="fa fa-trash"></i></a>
+                                    </td>
                                 </tr>
                             @endforeach
                             </tbody>

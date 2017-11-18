@@ -24,6 +24,7 @@
     <div class="container-fluid p-0">
         @yield('sections')
     </div>
+    @include('includes.footer')
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

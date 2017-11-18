@@ -8,43 +8,118 @@
                 <span class="text-primary">Haghighati</span>
             </h1>
             <div class="subheading mb-5">141 Hafez Avenue, Tehran · Amirkabir U. of T. · +98 (936) 153-2428 ·
-                <a href="mailto:haghighati.amir@gmail.com">haghighati.amir@gmail.com</a>
+                <a href="mailto:haghighati.amir@gmail.com" target="_blank">haghighati.amir@gmail.com</a>
             </div>
-            <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p class="mb-5">
+                Welcome to my homePage!
+                My full name is Amir Haghighati Maleki and I was born in Tabriz but currently I am living in Tehran where
+                I spend my last year of study (B.S.c) in Computer Engineering and IT
+                Department (A.K.A CEIT) of Amirkabir University of Technoogy (Tehran Polytechnic).
+                Interested in the study of interaction between people, technologies and computers, I have found myself
+                enthusiastic about technology, social computing and the people using those technologies.
+                This is my homepage and you're welcome here any time. How to reach me? Simply just use the links below.
+            </p>
             <ul class="list-inline list-social-icons mb-0">
                 <li class="list-inline-item">
-                    <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
+                    <a href="mailto:haghighati.amir@gmail.com?Subject=Hi Amir - Emailing you from your homePage&body=I'd like to have a conversation with you!" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
+                    <a href="https://www.linkedin.com/in/amirhmaleki/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
+                    <a href="https://github.com/anewage" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-            </span>
+                    <a href="skype:haghighati.amir?call" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://t.me/amirhaghighati" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/amir_haghighati/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/amir.haghighati" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/amir_haghighati" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
                     </a>
                 </li>
             </ul>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+            <h2 class="mb-5">Education</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Amirkabir University of Technology (Tehran Polytechnic)</h3>
+                    <div class="subheading mb-2">Bachelor of Science</div>
+                    <div>Computer Engineering - Information Technology Focus</div>
+                    <div>GPA (last two years): [16.60/20.00]</div>
+                    <div>GPA (selected courses): [17.74/20.00]</div>
+                    <div class="ml-4">
+                        In order to see the selected courses, coursework and all the information about my education
+                        please refer to <a href="">my Curriculum Vitae</a>.
+                    </div>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">September 2014 - Current</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">National Organization for Development of Exceptional Talents (NODET), Maragheh (Shahid Beheshti Highschool)</h3>
+                    <div class="subheading mb-2">High School Diploma in Math & Physics</div>
+                    <p>GPA: [19.00/20.00]</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">September 2010 - June 2014</span>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -98,36 +173,6 @@
 
         </div>
 
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-            <h2 class="mb-5">Education</h2>
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0">University of Colorado Boulder</h3>
-                    <div class="subheading mb-3">Bachelor of Science</div>
-                    <div>Computer Science - Web Development Track</div>
-                    <p>GPA: 3.23</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">August 2006 - May 2010</span>
-                </div>
-            </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0">James Buchanan High School</h3>
-                    <div class="subheading mb-3">Technology Magnet Program</div>
-                    <p>GPA: 3.56</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">August 2002 - May 2006</span>
-                </div>
-            </div>
-
-        </div>
     </section>
 
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">

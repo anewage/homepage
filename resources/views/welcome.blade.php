@@ -351,10 +351,10 @@
                 Also you can get the pdf version using the link below:
             </p>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <a href="{{ asset('files/AmirHaghighatiMalekiCV.pdf') }}" class="btn btn-secondary">
+                <a href="{{ asset('files/AmirHaghighatiMalekiCV.pdf') }}" class="btn btn-outline-dark">
                     Download my C. V. as PDF <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
-                <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283" class="btn btn-secondary mt-1">
+                <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283" class="btn btn-outline-dark mt-1">
                     View my C. V. on ShareLaTeX <i class="fa fa-external-link" aria-hidden="true"></i>
                 </a>
             </div>

@@ -14,4 +14,6 @@ let mix = require('laravel-mix');
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
 
+mix.js('resources/assets/js/service-worker.js', 'public/service-worker.js');
+
 mix.copyDirectory('resources/assets/img', 'public/img');

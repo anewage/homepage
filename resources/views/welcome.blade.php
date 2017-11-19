@@ -126,6 +126,7 @@
                     <h3 class="mb-0">Amirkabir University of Technology (Tehran Polytechnic)</h3>
                     <div class="subheading mb-2">Bachelor of Science</div>
                     <div>Computer Engineering - Information Technology Focus</div>
+                    <div>Supervisor: <a href="http://ceit.aut.ac.ir/~ahmad/"><b>Dr. Ahmad Abdollahzadeh Barfourosh</b></a>. Thesis will be titled <i>"Implementing a web app for performing usability tests using a crowdsourced solution"</i> and hopefully the defense session will be held in the upcoming spring.</div>
                     <div>GPA (selected courses): [17.74/20.00]</div>
                     <div>GPA (last two years): [16.60/20.00]</div>
                     <div class="ml-4">

@@ -30,7 +30,7 @@
             </p>
             <div class="mb-5 d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <a href="{{ asset('files/AmirHaghighatiMalekiCV.pdf') }}">
+                    <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283/output/output.pdf">
                         Download my C. V. as PDF
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
@@ -48,7 +48,7 @@
                     </a>
                 </div>
             </div>
-            <ul class="list-inline list-social-icons mb-0">
+            <ul class="text-center list-inline list-social-icons mb-0">
                 <li class="list-inline-item">
                     <a href="mailto:haghighati.amir@gmail.com?Subject=Hi Amir - Emailing you from your homePage&body=I'd like to have a conversation with you!" target="_blank" rel="noopener">
                         <span class="fa-stack fa-lg">
@@ -351,7 +351,7 @@
                 Also you can get the pdf version using the link below:
             </p>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <a href="{{ asset('files/AmirHaghighatiMalekiCV.pdf') }}" class="btn btn-outline-dark">
+                <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283/output/output.pdf" class="btn btn-outline-dark">
                     Download my C. V. as PDF <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283" class="btn btn-outline-dark mt-1">

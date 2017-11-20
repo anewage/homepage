@@ -30,7 +30,7 @@
             </p>
             <div class="mb-5 d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283/output/output.pdf">
+                    <a href="{{ asset('files/CV_Amir_Haghighati_Maleki_21Nov17.pdf') }}">
                         Download my C. V. as PDF
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
@@ -126,7 +126,7 @@
                     <h3 class="mb-0">Amirkabir University of Technology (Tehran Polytechnic)</h3>
                     <div class="subheading mb-2">Bachelor of Science</div>
                     <div>Computer Engineering - Information Technology Focus</div>
-                    <div>Supervisor: <a href="http://ceit.aut.ac.ir/~ahmad/"><b>Dr. Ahmad Abdollahzadeh Barfourosh</b></a>. Thesis will be titled <i>"Implementing a web app for performing usability tests using a crowdsourced solution"</i> and hopefully the defense session will be held in the upcoming spring.</div>
+                    <div>Supervisor: <a href="http://ceit.aut.ac.ir/~ahmad/"><b>Dr. Ahmad Abdollahzadeh Barfourosh</b></a>. Thesis (ongoing): <i>"Implementing a web app for performing usability tests using a crowdsourced solution"</i></div>
                     <div>GPA (selected courses): [18.23/20.00]</div>
                     <div>GPA (last two years): [16.60/20.00]</div>
                     <div class="ml-4">
@@ -351,7 +351,7 @@
                 Also you can get the pdf version using the link below:
             </p>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283/output/output.pdf" class="btn btn-outline-dark">
+                <a href="{{ asset('files/CV_Amir_Haghighati_Maleki_21Nov17.pdf') }}" class="btn btn-outline-dark">
                     Download my C. V. as PDF <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283" class="btn btn-outline-dark mt-1">

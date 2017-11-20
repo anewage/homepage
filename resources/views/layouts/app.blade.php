@@ -16,6 +16,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Amir Haghighati Maleki Homepage">
     <meta name="author" content="Amir Haghighati Maleki">
+    <meta property="og:title" content="Amir H. M." />
+    <meta property="og:title" content="Amir Haghighati Maleki's homepage and personal blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://amirhmaleki.ir" />
+    <meta property="og:image" content="http://amirhmaleki.ir/favicon.svg" />
 
     <title>Amir H. M. Homepage @yield('title-extension')</title>
 

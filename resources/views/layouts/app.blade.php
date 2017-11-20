@@ -20,7 +20,7 @@
     <meta property="og:title" content="Amir Haghighati Maleki's homepage and personal blog" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://amirhmaleki.ir" />
-    <meta property="og:image" content="http://amirhmaleki.ir/favicon.svg" />
+    <meta property="og:image" content="http://amirhmaleki.ir/favicon.png" />
 
     <title>Amir H. M. Homepage @yield('title-extension')</title>
 

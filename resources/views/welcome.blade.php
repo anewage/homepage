@@ -21,16 +21,17 @@
             </div>
             <p class="mb-1">
                 Welcome to my homePage!
-                My full name is Amir Haghighati Maleki and I was born in Tabriz but currently I am living in Tehran where
-                I spend my last year of study (B.S.c) in Computer Engineering and IT
-                Department (A.K.A CEIT) of Amirkabir University of Technology (Tehran Polytechnic).
+                My full name is Amir Haghighati Maleki and I was born in Tabriz. I am a senior student (B.S.c) in
+                Computer Engineering and IT Department (A.K.A CEIT) of Amirkabir University of Technology (Tehran Polytechnic).
+                Currently working on my bachelor's thesis with <a href="http://ceit.aut.ac.ir/~ahmad">Dr. A. A. Barforoush</a>
                 Interested in the study of interaction between people, technologies and computers, I have found myself
                 enthusiastic about technology, social computing and the people using those technologies.
-                This is my homepage and you're welcome here any time. How to reach me? You can simply, just use the links below.
+                Checkout <a herf="{{route('blog::index')}}">my blog</a>, if you were interested.
+                How to reach me? You can simply, just use the links below.
             </p>
             <div class="mb-5 d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <a href="{{ asset('files/CV_Amir_Haghighati_Maleki_21Nov17.pdf') }}">
+                    <a href="{{ asset('files/CV_Amir_Haghighati_Maleki_21Nov17v2.pdf') }}">
                         Download my C. V. as PDF
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
@@ -351,7 +352,7 @@
                 Also you can get the pdf version using the link below:
             </p>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <a href="{{ asset('files/CV_Amir_Haghighati_Maleki_21Nov17.pdf') }}" class="btn btn-outline-dark">
+                <a href="{{ asset('files/CV_Amir_Haghighati_Maleki_21Nov17v2.pdf') }}" class="btn btn-outline-dark">
                     Download my C. V. as PDF <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283" class="btn btn-outline-dark mt-1">

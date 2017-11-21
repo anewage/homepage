@@ -26,7 +26,7 @@
                 Currently working on my bachelor's thesis with <a href="http://ceit.aut.ac.ir/~ahmad">Dr. A. A. Barforoush</a>.
                 Interested in the study of interaction between people, technologies and computers, I have found myself
                 enthusiastic about technology, social computing and the people using those technologies.
-                Checkout <a herf="{{route('blog::index')}}">my blog</a>, if you were interested.
+                Checkout <a href="{{route('blog::index')}}">my blog</a>, if you were interested.
                 How to reach me? You can simply, just use the links below.
             </p>
             <div class="mb-5 d-flex flex-row justify-content-center">

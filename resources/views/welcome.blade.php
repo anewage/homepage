@@ -23,7 +23,7 @@
                 Welcome to my homePage!
                 My full name is Amir Haghighati Maleki and I was born in Tabriz. I am a senior student (B.S.c) in
                 Computer Engineering and IT Department (A.K.A CEIT) of Amirkabir University of Technology (Tehran Polytechnic).
-                Currently working on my bachelor's thesis with <a href="http://ceit.aut.ac.ir/~ahmad">Dr. A. A. Barforoush</a>
+                Currently working on my bachelor's thesis with <a href="http://ceit.aut.ac.ir/~ahmad">Dr. A. A. Barforoush</a>.
                 Interested in the study of interaction between people, technologies and computers, I have found myself
                 enthusiastic about technology, social computing and the people using those technologies.
                 Checkout <a herf="{{route('blog::index')}}">my blog</a>, if you were interested.

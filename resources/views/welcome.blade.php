@@ -31,7 +31,7 @@
             </p>
             <div class="mb-5 d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_28Jan2018.pdf') }}">
+                    <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_29Jan2018.pdf') }}">
                         Download my C. V. as PDF
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
@@ -368,7 +368,7 @@
                 Also you can get the pdf version using the link below:
             </p>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_28Jan2018.pdf') }}" class="btn btn-outline-dark">
+                <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_29Jan2018.pdf') }}" class="btn btn-outline-dark">
                     Download my C. V. as PDF <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283" class="btn btn-outline-dark mt-1">

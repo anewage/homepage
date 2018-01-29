@@ -31,7 +31,7 @@
             </p>
             <div class="mb-5 d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_26Jan2018v2.pdf') }}">
+                    <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_28Jan2018.pdf') }}">
                         Download my C. V. as PDF
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
@@ -128,8 +128,8 @@
                     <div class="subheading mb-2">Bachelor of Science</div>
                     <div>Computer Engineering - Information Technology Focus</div>
                     <div>Supervisor: <a href="http://ceit.aut.ac.ir/~ahmad/"><b>Dr. Ahmad Abdollahzadeh Barfourosh</b></a>. Thesis (ongoing): <i>"Implementing a web app for performing usability tests using a crowdsourced solution"</i></div>
-                    <div>GPA (selected courses): [18.23/20.00]</div>
-                    <div>GPA (last two years): [16.60/20.00]</div>
+                    <div>GPA (specialization courses): [19.00/20.00]</div>
+                    <div>GPA (last two years): [16.65/20.00]</div>
                     <div class="ml-4">
                         In order to see the selected courses, coursework and all the information about my education
                         please refer to <a href="#cv" class="js-scroll-trigger">my Curriculum Vitae</a>.
@@ -157,6 +157,22 @@
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
             <h2 class="mb-5">Experience</h2>
+            
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Undergraduate Teaching Assistant</h3>
+                    <div class="subheading mb-3">Amirkabir University of Technology</div>
+                    <p>
+                        Course Title: Data Structures and Algorithms <br>
+                        Instructor: <a href="http://ceit.aut.ac.ir/~dehghan/" target="_blank">Prof. M. Dehghan</a> <br>
+                        Responsibilities include providing the students with appropriate home-works and projects and evaluating theirperformance during the course.
+                    </p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">September 2017 - January 2018</span>
+                </div>
+            </div>
+
 
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
                 <div class="resume-content mr-auto">
@@ -352,7 +368,7 @@
                 Also you can get the pdf version using the link below:
             </p>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_26Jan2018v2.pdf') }}" class="btn btn-outline-dark">
+                <a href="{{ asset('files/CV_Amir_HaghighatiMaleki_28Jan2018.pdf') }}" class="btn btn-outline-dark">
                     Download my C. V. as PDF <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.sharelatex.com/project/59ce0029478e804b755b8283" class="btn btn-outline-dark mt-1">

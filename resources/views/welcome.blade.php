@@ -129,7 +129,7 @@
                     <div>Computer Engineering - Information Technology Focus</div>
                     <div>Supervisor: <a href="http://ceit.aut.ac.ir/~ahmad/"><b>Dr. Ahmad Abdollahzadeh Barfourosh</b></a>. Thesis (ongoing): <i>"Implementing a web app for performing usability tests using a crowdsourced solution"</i></div>
                     <div>GPA (specialization courses): [19.00/20.00]</div>
-                    <div>GPA (last two years): [16.65/20.00]</div>
+                    <div>CGPA (overall): [16.65/20.00]</div>
                     <div class="ml-4">
                         In order to see the selected courses, coursework and all the information about my education
                         please refer to <a href="#cv" class="js-scroll-trigger">my Curriculum Vitae</a>.

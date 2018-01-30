@@ -253,16 +253,25 @@
                     Crowdsourcing and Crowdsourced Problem Solving</li>
                 <li>
                     <i class="fa-li fa fa-check"></i>
-                    Virtual and Augmented Reality Technologies</li>
-                <li>
-                    <i class="fa-li fa fa-check"></i>
                     User-centered Design and User-driven Development</li>
                 <li>
                     <i class="fa-li fa fa-check"></i>
-                    Software Testing, Verification and Validation</li>
+                    Virtual and Augmented Reality Technologie</li>
                 <li>
                     <i class="fa-li fa fa-check"></i>
-                    Progressive Web Applications</li>
+                    Information Visalization</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Software, UI/UX andWeb Usability Testing
+                </li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Progressive Web Applications
+                </li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Cross Platform Applications
+                </li>
             </ul>
 
 
